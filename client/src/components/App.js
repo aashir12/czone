@@ -1,8 +1,11 @@
 import '../App.css';
 import Landing from './Landing/landing';
+import Login from './Login/login';
+import Sign from './Login/sign';
 import Card from './card';
 import CardCover from './cardCover';
 import Cart from './cart';
+import Checkout from './checkout/checkout';
 import Desc from './desc';
 import Footer from './footer';
 import Gallery from './gallery';
@@ -26,6 +29,9 @@ function App() {
     <Route path='/' element={<CardCover/>}/>
     <Route path='/single/:id' element={<SingleProduct/>}/>
     <Route path='/cart' element={<Cart/>}/>
+    <Route path='/sign' element={<Sign/>}/>
+    <Route path='/login' element={<Login/>}/>
+    <Route path='/checkout' element={<Checkout/>}/>
     </Routes>
     <Footer/>
    

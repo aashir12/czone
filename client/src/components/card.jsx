@@ -16,7 +16,7 @@ const Card = ({id,title,description,price,image}) => {
             </p>
             <hr style={{color:"grey",height:"0.1px"}}/>
             <h3>Price : {price}</h3>
-            <button onClick={clicker}>View Detail</button>
+            <button onClick={clicker}><i class="fa-solid fa-link"></i> View Detail</button>
         </div>
     </>
   )
